@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
               "subdomain-fu.gemspec" ]
 
   s.has_rdoc = false            
-  s.rdoc_options = ["--main", "README"]
+  # s.rdoc_options = ["--main", "README"]
   #s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
   #s.add_dependency("mbleigh-mash", [">= 0.0.5"])
 end
