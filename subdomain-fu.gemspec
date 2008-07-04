@@ -1,12 +1,11 @@
 Gem::Specification.new do |s|
   s.name = "subdomain-fu"
-  s.version = "0.0.2"
+  s.version = "0.0.21"
   s.date = "2008-07-04"
   s.summary = "Provides a simple solution for route handling and linking between subdomains in a Rails application."
   s.email = "michael@intridea.com"
   s.homepage = "http://www.actsascommunity.com/projects/subdomain-fu"
   s.description = "SubdomainFu aims to solve the problem of subdomain-based routing and in a unified way, establishing simple conventions for linking between subdomains of a Rails app."
-  s.has_rdoc = true
   s.authors = ["Michael Bleigh"]
   s.files = [ "MIT-LICENSE",
               "README",
@@ -20,6 +19,8 @@ Gem::Specification.new do |s|
               "spec/subdomain_fu_spec.rb",
               "spec/url_rewriter_spec.rb",
               "subdomain-fu.gemspec" ]
+
+  s.has_rdoc = false            
   s.rdoc_options = ["--main", "README"]
   #s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
   #s.add_dependency("mbleigh-mash", [">= 0.0.5"])
